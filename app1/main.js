@@ -158,7 +158,7 @@ function display_ipage_url() {
  let url_verse = get_verse_from_url();
  //console.log('url_verse=',url_verse);
  let indexobjs = get_indexobjs_from_verse(url_verse);
- console.log('indexobjs=',indexobjs);
+ //console.log('indexobjs=',indexobjs);
  display_ipage_html(indexobjs);
 }
 
